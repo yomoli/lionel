@@ -1,0 +1,114 @@
+body{
+	font-family: 'Cambria', Calibri, serif;
+	font-size: 20px;
+	margin: 1px;
+	padding: 1px;
+}
+
+h2{
+	font-size: 42px;
+	font-weight: normal;
+	text-align: center;
+	color: black;
+}
+
+header{
+	height: 90px;
+}
+
+footer{
+	height: 2px;
+	padding-top: 2px;
+	text-align: center;
+	background-color: rgb(181, 242, 253);
+	border-top: 5px solid #AAA;
+}
+
+nav{
+	width: 100%;
+	background-color: rgb(104, 142, 207);
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	display: inline-table;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: black;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-ind:hover{
+	border-top: 5px solid rgb(62, 79, 109);
+	background-color: rgb(51, 51, 101);
+}
+.menu-pres:hover{
+	border-top: 5px solid rgb(53, 91, 156) ;
+	background-color:rgb(0, 128, 192); ; 
+}
+.menu-cont:hover{
+	border-top: 5px solid white;
+	background-color: rgb(192, 192, 192);
+}
+.nav li:hover a{
+	padding: 15px;
+}
+.rouge{
+	border-top: 5px solid rgb(255, 201, 14);
+	background-color: rgb(253, 190, 149);
+}
+
+h4{
+	font-size: 40px;
+	color: red;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Forte', Calibri, serif;
+}
+.bleu{
+	border-top: 5px solid rgb(52, 90, 155);
+	background-color: rgb(255, 255, 0);
+}
+h1{
+	font-size: 40px;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Bauhaus 93', Calibri, serif;
+}
+h3{
+	font-size: 40px;
+	color: black;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Cambria', Calibri, serif;
+}
+.vert{
+	border-top: 5px solid rgb(51, 51, 101);
+	background-color: rgb(51, 51, 101);
+}
+.violet{
+	background-image: url(file:///C:/Users/FRANCK%20KOUASSI/Pictures/coucher-soleil.jpg);
+	background-size: 1300px 845px;
+	background-repeat: no-repeat; 
+}
+h5{
+	font-size: 40px;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Cambria', Calibri, serif;
+}
